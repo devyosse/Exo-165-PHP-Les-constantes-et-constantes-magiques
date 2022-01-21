@@ -9,8 +9,14 @@
  *    longueur de la chaîne de la troisième constante ( attention aux priorités )
  */
 // TODO Votre code ici.
+define('SUPER_NOMBRE', 12);
+define('MON_NOMBRE', 2);
 
+echo SUPER_NOMBRE * MON_NOMBRE . "<br>";
 
+define('MA_CHAINE', "C'est cool PHP");
+
+echo (SUPER_NOMBRE + MON_NOMBRE) * strlen(MA_CHAINE) . "<br>";
 /**
  * 6. Utilisez la bonne constante magique et éventuellement la bonne fonction pour afficher un maximum d'informations sur la page actuelle4
  */
