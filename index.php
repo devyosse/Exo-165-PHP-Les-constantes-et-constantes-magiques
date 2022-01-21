@@ -21,3 +21,4 @@ echo (SUPER_NOMBRE + MON_NOMBRE) * strlen(MA_CHAINE) . "<br>";
  * 6. Utilisez la bonne constante magique et éventuellement la bonne fonction pour afficher un maximum d'informations sur la page actuelle4
  */
 // TODO Votre code ici.
+echo "Le chemin absolu de ce fichier est: " . __FILE__;
